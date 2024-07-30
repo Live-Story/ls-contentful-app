@@ -1,7 +1,7 @@
 export const DEFAULT_CONTENT_TYPE_NAME = 'Live Story'
 export const DEFAULT_CONTENT_TYPE_ID = 'LIVE_STORY_CONTENT_TYPE'
 
-export const DEFAULT_API_URL = 'https://api.livestory.io'
+export const DEFAULT_API_URL = 'https://uat.livestory.io'
 
 export const DEFAULT_CONTENT_TYPE = {
     name: 'Live Story',
