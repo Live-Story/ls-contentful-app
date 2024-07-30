@@ -31,10 +31,6 @@ function EmptyState({ entry, setLinked, parameters }: StateProps) {
         setLoading(true)
         const regex = new RegExp(/^[a-f\d]{24}$/i)
 
-
-        // Get experience metadata
-        //const experienceMetadata = await getExperienceMetadata(experienceId)
-
         // Save the data to the entry
         if (regex.test(experienceId) && ['wall', 'wallgroup'].includes(experienceType)) {
         
