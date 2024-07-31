@@ -202,8 +202,9 @@ function LinkedState({ entry, setLinked, parameters }: StateProps) {
                 <>
                     <Paragraph>The Content ID and Content Type in this entry doesn't look like a Live Story experience</Paragraph>
 
-                    <Box marginTop="spacingL" marginBottom="spacingL" style={{ backgroundColor: tokens.gray200 }}>
-                        <code>{}</code>
+                    <Box marginTop="spacingL" marginBottom="spacingL" style={{ backgroundColor: tokens.gray100 }}>
+                        <code> id: { entry.fields.id.getValue() } </code>
+                        <code> type: { entry.fields.type.getValue() } </code>
                     </Box>
 
                     <Paragraph>
